@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebDev Challenge 4</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/nav.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav-top">
+            <ul class="nav-top__items">
+                <a class="nav-top__link" onclick="nav()"><li class="nav-top__item  nav-top__item--hamburger">&#9776;</li></a>
+                <a class="nav-top__link" href="#"><li class="nav-top__item">Home</li></a>
+                <a class="nav-top__link" href="#"><li class="nav-top__item">Store</li></a>
+                <a class="nav-top__link" href="#"><li class="nav-top__item">Blog</li></a>
+                <a class="nav-top__link" href="#"><li class="nav-top__item">About</li></a>
+                <a class="nav-top__link" href="#"><li class="nav-top__item">Contact</li></a>
+            </ul>
+            <ul class="nav-top__icons">
+                <a class="nav-top__link" href="#">
+                    <li class="nav-top__item nav-top__item--icon nav-top__item--first">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#search-icon"></use>
+                        </svg>
+                    </li>
+                </a>
+                <a class="nav-top__link" href="#">
+                    <li class="nav-top__item nav-top__item--icon">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#facebook-icon"></use>
+                        </svg>
+                    </li>
+                </a>
+                <a class="nav-top__link" href="#">
+                    <li class="nav-top__item nav-top__item--icon">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#twitter-icon"></use>
+                        </svg>
+                    </li>
+                </a>
+                <a class="nav-top__link" href="#">
+                    <li class="nav-top__item nav-top__item--icon">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#google-icon"></use>
+                        </svg>
+                    </li>
+                </a>
+                <a class="nav-top__link" href="#">
+                    <li class="nav-top__item nav-top__item--icon nav-top__item--last">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#user-icon"></use>
+                        </svg>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="nav-hidden" id="nav-hidden">
+            Menu
+        </nav>
+    </div>
+</body>
+</html>
