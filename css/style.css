@@ -130,8 +130,9 @@ body{
     text-decoration: none;
     color: #475055;
     font-size: 16px;
-    border-bottom: 1px solid #e3e3e3;
     transition: .3s;
+    padding: 1.5rem 0;
+    width: 100%;
 }
 
 .nav-left__icon{
@@ -140,7 +141,9 @@ body{
 }
 
 .nav-left__item{
-    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 .nav-left__link:hover{
