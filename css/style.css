@@ -45,6 +45,11 @@ body{
     height: 100%;
 }
 
+.nav-top__items--position{
+    justify-content: center;
+    padding: 1rem 0;;
+}
+
 .nav-top__item{
     padding: 0 2rem;
     color: #475055;
@@ -104,4 +109,41 @@ body{
 
 .nav-hidden{
     background-color: #fff;
+}
+
+.nav-side{
+    margin: 1.5rem 0;
+}
+
+.nav-left{
+    background-color: #fff;
+    width: 22.5rem;
+}
+
+.nav-left__items{
+    list-style: none;
+}
+
+.nav-left__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #475055;
+    font-size: 16px;
+    border-bottom: 1px solid #e3e3e3;
+    transition: .3s;
+}
+
+.nav-left__icon{
+    color: #c5cdd1;
+    margin: 0 2rem 0 1rem;
+}
+
+.nav-left__item{
+    padding: 2rem 0;
+}
+
+.nav-left__link:hover{
+    background-color: #56ccc8;
+    color: #fff;
 }
